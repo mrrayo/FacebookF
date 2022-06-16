@@ -12,7 +12,8 @@
   .container {
     height: 100%;
 
-    .row { //row
+    .row {
+      //row
       .top--body__left {
         text-align: left;
         padding-top: 13rem;
@@ -40,10 +41,27 @@
 
         .main-form {
           background-color: white;
-          padding: 0.8rem;
+          padding: 1rem;
           border-radius: 8px;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
             0 8px 16px rgba(0, 0, 0, 0.1);
+
+          .input {
+            // padding: 6px;
+            padding: 12px 14px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            .inp--text {
+              width: 330px;
+              height: 22px;
+              border: none;
+              outline: none;
+              font-size: 17px;
+            }
+          }
+          .pass {
+            margin: 1.5rem 0;
+          }
         }
       }
     } // row

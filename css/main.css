@@ -83,9 +83,27 @@ a {
 
 .top--body .container .row .top--body__right .main-form {
   background-color: white;
-  padding: 0.8rem;
+  padding: 1rem;
   border-radius: 8px;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.top--body .container .row .top--body__right .main-form .input {
+  padding: 12px 14px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+.top--body .container .row .top--body__right .main-form .input .inp--text {
+  width: 330px;
+  height: 22px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.top--body .container .row .top--body__right .main-form .pass {
+  margin: 1.5rem 0;
 }
 /*# sourceMappingURL=main.css.map */
