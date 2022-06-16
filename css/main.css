@@ -37,22 +37,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  gap: 100px;
 }
 
 .col {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-}
-
-@media screen and (max-width: 992px) {
-  .col {
-    -webkit-box-flex: 95%;
-        -ms-flex: 95%;
-            flex: 95%;
-  }
 }
 
 .top--body {
@@ -64,24 +55,37 @@ a {
   height: 100%;
 }
 
-.top--body .container .row {
-  padding-top: 13rem;
-}
-
 .top--body .container .row .top--body__left {
   text-align: left;
-  background-color: crimson;
+  padding-top: 13rem;
 }
 
 .top--body .container .row .top--body__left .top--body__logo {
   margin: -28px;
+  line-height: 16px;
+  display: inline;
 }
 
 .top--body .container .row .top--body__left .top--body__subttl {
   font-family: "Sf Pro Normal", Helvetica, Arial, sans-serif;
   line-height: 32px;
-  font-size: 28px;
+  font-size: 29px;
   font-weight: normal;
-  width: 500px;
+  width: 490px;
+  padding-bottom: 20px;
+  padding-top: 18px;
+}
+
+.top--body .container .row .top--body__right {
+  padding-top: 9rem;
+  width: 350px;
+}
+
+.top--body .container .row .top--body__right .main-form {
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=main.css.map */

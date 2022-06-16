@@ -7,15 +7,16 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
+  gap: 100px;
 }
 
 .col {
   flex: 1;
 }
 
-@media screen and (max-width: 992px) {
-  .col {
-    flex: 95%;
-  }
-}
+// @media screen and (max-width: 992px) {
+//   .col {
+//     // flex: 95%;
+//   }
+// }

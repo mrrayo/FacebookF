@@ -12,24 +12,40 @@
   .container {
     height: 100%;
 
-    .row {
-      padding-top: 13rem;
-
+    .row { //row
       .top--body__left {
         text-align: left;
-        background-color: crimson;
+        padding-top: 13rem;
 
         .top--body__logo {
           margin: -28px;
+          line-height: 16px;
+          display: inline;
         }
         .top--body__subttl {
           font-family: $font-sf-regular;
           line-height: 32px;
-          font-size: 28px;
+          font-size: 29px;
           font-weight: normal;
-          width: 500px;
+          width: 490px;
+          padding-bottom: 20px;
+          padding-top: 18px;
+          //   background-color: pink;
         }
       } //body left
+
+      .top--body__right {
+        padding-top: 9rem;
+        width: 350px;
+
+        .main-form {
+          background-color: white;
+          padding: 0.8rem;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+            0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+      }
     } // row
   }
 }
