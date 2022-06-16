@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "Sf Pro Normal";
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sf Pro Bold";
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Semibold.ttf");
+  font-weight: bold;
+}
+
+$font-sf-regular: "Sf Pro Normal", Helvetica, Arial, sans-serif;
+$font-sf-Bold: "Sf Pro Bold", Helvetica, Arial, sans-serif;
+$font-Vazir: "Vazirmatn", sans-serif;

@@ -1,4 +1,56 @@
-body {
-  background-color: crimson;
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Sf Pro Normal";
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sf Pro Bold";
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Semibold.ttf");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .col {
+    -webkit-box-flex: 95%;
+        -ms-flex: 95%;
+            flex: 95%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

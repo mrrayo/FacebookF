@@ -1,0 +1,20 @@
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .col {
+    flex: 95%;
+  }
+}
