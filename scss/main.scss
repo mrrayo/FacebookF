@@ -2,3 +2,34 @@
 @import "basic";
 @import "colors";
 @import "grid";
+
+// ========================== Start Write Css Styles ========================== //
+// -------- top--body --------
+.top--body {
+  height: 75vh;
+  background-color: #f0f2f5;
+
+  .container {
+    height: 100%;
+
+    .row {
+      padding-top: 13rem;
+
+      .top--body__left {
+        text-align: left;
+        background-color: crimson;
+
+        .top--body__logo {
+          margin: -28px;
+        }
+        .top--body__subttl {
+          font-family: $font-sf-regular;
+          line-height: 32px;
+          font-size: 28px;
+          font-weight: normal;
+          width: 500px;
+        }
+      } //body left
+    } // row
+  }
+}
