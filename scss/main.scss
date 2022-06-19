@@ -101,14 +101,14 @@
         .celeb {
           font-family: $font-sf-regular;
           color: $dark-color;
-          font-size: 14px;
+          font-size: 15px;
           font-weight: normal;
           margin-top: 2rem;
           .celeb--link {
             font-family: $font-sf-Bold;
             color: $dark-color;
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 15px;
+            font-weight: bold;
             &:hover {
               text-decoration: underline;
             }
@@ -118,3 +118,5 @@
     } // row
   }
 }
+
+// -------- Bottom--body --------

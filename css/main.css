@@ -52,7 +52,7 @@ a {
   padding: 0 16px;
   vertical-align: middle;
   font-family: "Vazirmatn", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   color: white;
   background-color: #42b72a;
@@ -211,7 +211,7 @@ a {
 .top--body .container .row .top--body__right .celeb {
   font-family: "Sf Pro Normal", Helvetica, Arial, sans-serif;
   color: #1c1e21;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
   margin-top: 2rem;
 }
@@ -219,8 +219,8 @@ a {
 .top--body .container .row .top--body__right .celeb .celeb--link {
   font-family: "Sf Pro Bold", Helvetica, Arial, sans-serif;
   color: #1c1e21;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .top--body .container .row .top--body__right .celeb .celeb--link:hover {
