@@ -51,7 +51,17 @@ a {
   }
 }
 
-.d-felx-col{
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-felx-col {
   display: flex;
   flex-direction: column;
+}
+
+.pt-20 {
+  padding-top: 20px;
 }

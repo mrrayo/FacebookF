@@ -68,6 +68,18 @@ a {
   background-color: #36a420;
 }
 
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .d-felx-col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,6 +88,10 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.pt-20 {
+  padding-top: 20px;
 }
 
 .container {
@@ -235,5 +251,73 @@ a {
 
 .top--body .container .row .top--body__right .celeb .celeb--link:hover {
   text-decoration: underline;
+}
+
+.bottom--body__head {
+  padding-top: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.bottom--body__head .body--lang__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.bottom--body__head .body--lang__list .lang--list__items {
+  padding-right: 10px;
+  font-family: "Vazirmatn", sans-serif;
+  color: #8a8d91;
+  font-size: 12px;
+}
+
+.bottom--body__head .body--lang__list .lang--list__items .lang--list__link {
+  font-family: "Vazirmatn", sans-serif;
+  color: #8a8d91;
+  font-size: 12px;
+}
+
+.bottom--body__head .body--lang__list .lang--list__items .lang--list__link:hover {
+  text-decoration: underline;
+}
+
+.bottom--body__head .body--lang__list .lang--list__items .lang--list__btn {
+  width: 12px;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 8px;
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+  font-family: "Vazirmatn", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border-radius: 2px;
+  background-color: #f5f6f7;
+  outline: none;
+  border: 1px solid #ccd0d5;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.bottom--body__head .body--lang__list .lang--list__items .lang--list__btn:hover {
+  background-color: #ebedf0;
 }
 /*# sourceMappingURL=main.css.map */
