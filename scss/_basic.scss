@@ -50,3 +50,8 @@ a {
     background-color: $green-d-color;
   }
 }
+
+.d-felx-col{
+  display: flex;
+  flex-direction: column;
+}
